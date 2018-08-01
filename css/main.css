@@ -1,1 +1,18 @@
-/*Add your CSS*/
+.firstScreen,
+.secondScreen{
+background: linear-gradient(red, yellow);
+height:  100vh;
+position: absolute;
+top:0;
+left: 0;
+}
+
+
+.firstScreen {
+background: linear-gradient(red, yellow);
+}
+
+.box-2 {
+  background-color: blue;
+  display: none;
+}
