@@ -7,7 +7,11 @@
   height: 100vh;
 }
 .firstScreen {
-  background: radial-gradient(red, yellow);
+  background: radial-gradient(gray, black);
+  color: #ff8300;
+}
+.container{
+  color: #ff8300;
 }
 .mainScreen {
   display: none;
@@ -30,4 +34,9 @@ height: 50vh;
 }
 #floating-panel {
         margin-left: -52px;
+}
+.rest {
+  background-color: black;
+  width: 100vw;
+  height: 400vh;
 }
