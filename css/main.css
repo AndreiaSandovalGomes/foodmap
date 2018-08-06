@@ -17,26 +17,17 @@
   display: none;
 }
 #map {
-height: 50vh;
+height: 60vh;
 }
-#floating-panel {
-        /* position: absolute;
-        top: 10px;
-        left: 25%; */
-        z-index: 5;
-        background-color: #fff;
-        padding: 5px;
-        border: 1px solid #999;
-        text-align: center;
-        font-family: 'Roboto','sans-serif';
-        line-height: 30px;
-        padding-left: 10px;
-}
-#floating-panel {
-        margin-left: -52px;
-}
-.rest {
+#showRest{
+  display: flex;
+  justify-content: space-around;
   background-color: black;
-  width: 100vw;
-  height: 400vh;
+}
+span {
+    display: none;
+}
+img{
+  width: 50vw;
+  height: 50vh;
 }
